@@ -64,7 +64,7 @@ namespace Program
                 MethodInfo? addMethod = dictionary?.GetType().GetMethod("Add", new Type[] { typeof(string), typeof(int) });
 
                 //so we need to get the type of the object that was returned from field.GetValue
-                //GetType() returns a Type object for our dictionary<string,int>
+                //GetType() returns a Type object for our local variable object? dictionary
                 //GetMethod() returns the method information from our Type object
 
                 //Our first parameter "Add" is the name, and our second parameter is a Type[] array that matches the parameters of the method you want
