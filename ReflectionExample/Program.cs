@@ -61,7 +61,7 @@ namespace Program
                 //however, because our field is static, it does not require an instance to modify, and our parameter should be null
 
                 //once we have the actual object, we need to ask reflection to give us the method we want for it
-                MethodInfo? addMethod = dictionary?.GetType().GetMethod("Add", new[] { typeof(string), typeof(int) });
+                MethodInfo? addMethod = dictionary?.GetType().GetMethod("Add", new Type[] { typeof(string), typeof(int) });
 
                 //so we need to get the type of the object that was returned from field.GetValue
                 //GetType() returns a Type object for our dictionary<string,int>
@@ -81,7 +81,8 @@ namespace Program
 
                 //To invoke the method on the dictionary object and modify it, we need to pass the dictionary object as a parameter
                 addMethod?.Invoke(dictionary, new object[] { "MyReflectedKey", 29101 });
-                //Then, to actually add a new KeyValuePair, our second parameter needs to be an Object[] array, and in the array you put your data!
+                //Then, you need to make an Object[] array, and you need to fill it with values that match the parameters of the method you retrieved
+                //So in effect, what's really happening here is dictionary.Add("MyReflectedKey", 29101);
             }
         }
 
