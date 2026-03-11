@@ -1,0 +1,14 @@
+c:\Users\user\Desktop\reflection\ReflectionExample\bin\Debug\net9.0\ReflectionExample.exe
+c:\Users\user\Desktop\reflection\ReflectionExample\bin\Debug\net9.0\ReflectionExample.deps.json
+c:\Users\user\Desktop\reflection\ReflectionExample\bin\Debug\net9.0\ReflectionExample.runtimeconfig.json
+c:\Users\user\Desktop\reflection\ReflectionExample\bin\Debug\net9.0\ReflectionExample.dll
+c:\Users\user\Desktop\reflection\ReflectionExample\bin\Debug\net9.0\ReflectionExample.pdb
+c:\Users\user\Desktop\reflection\ReflectionExample\obj\Debug\net9.0\ReflectionExample.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\user\Desktop\reflection\ReflectionExample\obj\Debug\net9.0\ReflectionExample.AssemblyInfoInputs.cache
+c:\Users\user\Desktop\reflection\ReflectionExample\obj\Debug\net9.0\ReflectionExample.AssemblyInfo.cs
+c:\Users\user\Desktop\reflection\ReflectionExample\obj\Debug\net9.0\ReflectionExample.csproj.CoreCompileInputs.cache
+c:\Users\user\Desktop\reflection\ReflectionExample\obj\Debug\net9.0\ReflectionExample.dll
+c:\Users\user\Desktop\reflection\ReflectionExample\obj\Debug\net9.0\refint\ReflectionExample.dll
+c:\Users\user\Desktop\reflection\ReflectionExample\obj\Debug\net9.0\ReflectionExample.pdb
+c:\Users\user\Desktop\reflection\ReflectionExample\obj\Debug\net9.0\ReflectionExample.genruntimeconfig.cache
+c:\Users\user\Desktop\reflection\ReflectionExample\obj\Debug\net9.0\ref\ReflectionExample.dll
