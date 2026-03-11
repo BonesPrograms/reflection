@@ -123,6 +123,8 @@ namespace ReflectionExample
     class ExampleClass
     {
         //These are the same access modifiers from Qudmoji
+        //Actually qudmoji is not readonly, but it doesnt matter whether or not it is readonly
+        //when using .Add
         public static readonly Dictionary<string, int> ExampleDictionary = new()
         {
             {"ExampleKeyA", 42184},
