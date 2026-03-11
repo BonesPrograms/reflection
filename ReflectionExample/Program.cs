@@ -85,6 +85,18 @@ namespace Program
             }
         }
 
+// This is our dictionary before being accessed via reflection:
+
+// ExampleKeyA, 42184
+// ExampleKeyB, 29419054
+
+// This is our dictionary after being accessed via reflection:
+
+// ExampleKeyA, 42184
+// ExampleKeyB, 29419054
+// MyReflectedKey, 29101
+
+
 
         //Unimportant for learning, this is just for my console display
         static void ReadDictionaryBefore()
@@ -116,13 +128,3 @@ namespace ReflectionExample
     }
 }
 
-// This is our dictionary before being accessed via reflection:
-
-// ExampleKeyA, 42184
-// ExampleKeyB, 29419054
-
-// This is our dictionary after being accessed via reflection:
-
-// ExampleKeyA, 42184
-// ExampleKeyB, 29419054
-// MyReflectedKey, 29101
