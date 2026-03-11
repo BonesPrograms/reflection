@@ -63,7 +63,7 @@ namespace Program
                 //once we have the actual object, we need to ask reflection to give us the method we want for it
                 MethodInfo? addMethod = dictionary?.GetType().GetMethod("Add", new[] { typeof(string), typeof(int) });
 
-                //so we need to get the object's type this time -
+                //so we need to get the type of the object that was returned from field.GetValue
                 //GetType() returns a Type object for our dictionary<string,int>
                 //GetMethod() returns the method information from our Type object
 
