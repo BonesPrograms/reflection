@@ -12,3 +12,4 @@ c:\Users\user\Desktop\reflection\ReflectionExample\obj\Debug\net9.0\refint\Refle
 c:\Users\user\Desktop\reflection\ReflectionExample\obj\Debug\net9.0\ReflectionExample.pdb
 c:\Users\user\Desktop\reflection\ReflectionExample\obj\Debug\net9.0\ReflectionExample.genruntimeconfig.cache
 c:\Users\user\Desktop\reflection\ReflectionExample\obj\Debug\net9.0\ref\ReflectionExample.dll
+c:\Users\user\Desktop\reflection\ReflectionExample\obj\Debug\net9.0\ReflectionExample.sourcelink.json
