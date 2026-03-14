@@ -46,7 +46,7 @@ namespace Program
             FieldInfo? field = type.GetField("ExampleDictionary", BindingFlags.Static | BindingFlags.Public);
 
             //bindingFlags seem complicated at first but are not, its simple: we provide info about the field
-            //in this case the field is static and public. if it an instance and private field, we would use BindingFlags.Instance | BindingFlags.Private
+            //in this case the field is static and public. if it an instance and private field, we would use BindingFlags.Instance | BindingFlags.NonPublic
             //you dont need to worry about what | does right now
 
             if (field != null)
@@ -76,7 +76,7 @@ namespace Program
                 //     bool modified = TryInsert(key, value, InsertionBehavior.ThrowOnExisting);
                 //     Debug.Assert(modified); // If there was an existing key and the Add failed, an exception will already have been thrown.
                 // }
-
+                
 
                 //MethodInfo has an "Invoke" method that will invoke the method you got from the Type object
 
